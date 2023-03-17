@@ -1,0 +1,72 @@
+
+In order to run the UDF Verifier with scsi/Atapi drive support on a
+Win32 platform, the wnaspi32.dll ASPI driver has to be installed.
+
+A version of wnaspi32.dll for WinXP, Win2000 and WinNT is bundled
+with the UDF Verifier by courtesy of Nero AG.
+For terms and conditions of using this wnaspi32.dll, see below.
+
+This bundled version of wnaspi32.dll is in the bin/win32-aspi
+directory and can also be downloaded from:
+
+ http://www.nero.com/en/ASPI_Driver.html
+
+( or use search at the download page of http://www.nero.com/ )
+
+For Win9x and WinNT the Adaptec version of wnaspi32.dll can be used.
+It is one of the components installed by running aspi32.exe, that
+can be downloaded from:
+
+ http://www.adaptec.com/worldwide/support/driverdetail.html?cat=/Product/EZ-SCSI_5.01&filekey=aspi32.exe
+
+-----------------------------
+
+In order to compile the verifier software with Win32 scsi/Atapi support,
+you need the file wnaspi32.lib.
+This file is part of the Adaptec ASPI SDK distribution.
+wnaspi32.lib can also be generated from wnaspi32.dll, for details
+see http://support.microsoft.com/default.aspx?scid=kb;en-us;131313
+
+-------------------------------------------------------------------------
+Terms and conditions for use of the bundled version of wnaspi32.dll:
+--------------------------------------------------------------------
+
+wnaspi32.dll (c) Nero AG and its licensors.
+
+This bundled version of wnaspi32.dll is for WinXP, Win2000 and WinNT.
+
+Nero AG's wnaspi32.dll is bundled with the UDF Verifier by courtesy of
+Nero AG.
+
+It is not allowed to use and/or copy wnaspi32.dll for any other purpose then
+for running the UDF Verifier.
+
+This wnaspi32.dll is provided "AS IS". Please read and accept the disclaimer
+below before using it. Otherwise usage is not allowed.
+
+
+DISCLAIMER:
+
+NERO AG AND ITS LICENSORS DO NOT AND CANNOT WARRANT THE PERFORMANCE OR
+RESULTS BY USING WNASPI32.DLL. EXCEPT FOR ANY WARRANTY, CONDITION,
+REPRESENTATION OR TERM TO THE EXTENT TO WHICH THE SAME CANNOT OR MAY NOT BE
+EXCLUDED OR LIMITED BY LAW APPLICABLE TO YOU IN YOUR JURISDICTION, NERO AG
+AND ITS LICENSORS MAKE NO WARRANTIES, CONDITIONS, REPRESENTATIONS OR TERMS,
+EXPRESS OR IMPLIED, WHETHER BY STATUTE, COMMON LAW, CUSTOM, USAGE OR OTHERWISE
+AS TO WNASPI32.DLL OR ANY COMPONENT THEREOF, INCLUDING BUT NOT LIMITED TO FUTURE
+AVAILABILITY AND SUPPORT OF WNASPI32.DLL, NON-INFRINGEMENT OF THIRD PARTY RIGHTS,
+INTEGRATION, MERCHANTABILITY, SATISFACTORY QUALITY OR FITNESS FOR ANY PARTICULAR
+PURPOSE.
+
+IN NO EVENT WILL NERO AG OR ITS LICENSORS BE LIABLE TO YOU FOR ANY
+DAMAGES, CLAIMS OR COSTS WHATSOEVER ARISING FROM THIS LICENSE AND/OR YOUR USE OF
+WNASPI32.DLL OR ANY COMPONENT THEREOF, INCLUDING WITHOUT LIMITATION ANY
+CONSEQUENTIAL, INDIRECT, INCIDENTAL DAMAGES, LOSS OF USE OR DATA, INTERRUPTION
+OF BUSINESS, OR ANY LOST PROFITS OR LOST SAVINGS, EVEN IF A NERO AG
+REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS, DAMAGES, CLAIMS OR
+COSTS OR FOR ANY CLAIM BY ANY THIRD PARTY. THE FOREGOING LIMITATIONS AND EXCLUSIONS
+APPLY TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW IN YOUR JURISDICTION. NERO
+AG'S AGGREGATE LIABILITY AND THAT OF ITS LICENSORS UNDER OR IN CONNECTION
+WITH THIS LICENSE SHALL BE LIMITED TO ONE US DOLLARS-CENTS (US$ 0.01).
+
+
