@@ -1,168 +1,114 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8.00"
+	Version="7.10"
 	Name="uct_core"
-	ProjectGUID="{77353A94-F827-4A90-8179-20E5BBF325AC}"
-	RootNamespace="uct_core"
-	>
+	SccProjectName="&quot;$/udfct/uct_core&quot;, RFAAAAAA"
+	SccLocalPath=".">
 	<Platforms>
 		<Platform
-			Name="Win32"
-		/>
+			Name="Win32"/>
 	</Platforms>
-	<ToolFiles>
-	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
 			OutputDirectory=".\Debug"
 			IntermediateDirectory=".\Debug"
 			ConfigurationType="4"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
-			>
-			<Tool
-				Name="VCPreBuildEventTool"
-			/>
-			<Tool
-				Name="VCCustomBuildTool"
-			/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
-			<Tool
-				Name="VCMIDLTool"
-			/>
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				PreprocessorDefinitions="_LIB;WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE"
+				PreprocessorDefinitions="_LIB;WIN32;_DEBUG"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
-				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile="$(OutDir)\$(ProjectName).pch"
-				AssemblerListingLocation="$(OutDir)\"
-				ObjectFile="$(OutDir)\"
-				ProgramDataBaseFileName="$(OutDir)\"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderFile=".\Debug\uct_core.pch"
+				AssemblerListingLocation=".\Debug\"
+				ObjectFile=".\Debug\"
+				ProgramDataBaseFileName=".\Debug\"
 				WarningLevel="4"
-				SuppressStartupBanner="true"
-				Detect64BitPortabilityProblems="true"
-				DebugInformationFormat="3"
-			/>
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="3"/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\Debug\uct_core.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="_DEBUG"
-				Culture="1043"
-			/>
+				Culture="1043"/>
 			<Tool
-				Name="VCPreLinkEventTool"
-			/>
+				Name="VCWebServiceProxyGeneratorTool"/>
 			<Tool
-				Name="VCLibrarianTool"
-				OutputFile="$(OutDir)\$(ProjectName).lib"
-				SuppressStartupBanner="true"
-			/>
+				Name="VCXMLDataGeneratorTool"/>
 			<Tool
-				Name="VCALinkTool"
-			/>
+				Name="VCManagedWrapperGeneratorTool"/>
 			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-				OutputFile="$(OutDir)\$(ProjectName).bsc"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
-			/>
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
 			OutputDirectory=".\Release"
 			IntermediateDirectory=".\Release"
 			ConfigurationType="4"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
-			>
-			<Tool
-				Name="VCPreBuildEventTool"
-			/>
-			<Tool
-				Name="VCCustomBuildTool"
-			/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
-			<Tool
-				Name="VCMIDLTool"
-			/>
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
+				Optimization="0"
 				InlineFunctionExpansion="0"
-				PreprocessorDefinitions="_LIB;WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE"
-				StringPooling="false"
+				PreprocessorDefinitions="_LIB;WIN32;NDEBUG"
+				StringPooling="FALSE"
 				BasicRuntimeChecks="0"
 				RuntimeLibrary="0"
-				EnableFunctionLevelLinking="false"
-				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile="$(OutDir)\$(ProjectName).pch"
-				AssemblerListingLocation="$(OutDir)\"
-				ObjectFile="$(OutDir)\"
-				ProgramDataBaseFileName="$(OutDir)\"
+				EnableFunctionLevelLinking="FALSE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderFile=".\Release/uct_core.pch"
+				AssemblerListingLocation=".\Release/"
+				ObjectFile=".\Release/"
+				ProgramDataBaseFileName=".\Release/"
 				WarningLevel="4"
-				SuppressStartupBanner="true"
-				Detect64BitPortabilityProblems="true"
-			/>
+				SuppressStartupBanner="TRUE"/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\Release\uct_core.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="NDEBUG"
-				Culture="1043"
-			/>
+				Culture="1043"/>
 			<Tool
-				Name="VCPreLinkEventTool"
-			/>
+				Name="VCWebServiceProxyGeneratorTool"/>
 			<Tool
-				Name="VCLibrarianTool"
-				OutputFile="$(OutDir)\$(ProjectName).lib"
-				SuppressStartupBanner="true"
-			/>
+				Name="VCXMLDataGeneratorTool"/>
 			<Tool
-				Name="VCALinkTool"
-			/>
+				Name="VCManagedWrapperGeneratorTool"/>
 			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-				OutputFile="$(OutDir)\$(ProjectName).bsc"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
-			/>
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
 		</Configuration>
 	</Configurations>
 	<References>
@@ -170,161 +116,134 @@
 	<Files>
 		<Filter
 			Name="Source Files"
-			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
-			>
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
 			<File
-				RelativePath="crc.c"
-				>
+				RelativePath="crc.c">
 			</File>
 			<File
-				RelativePath="device.c"
-				>
+				RelativePath="device.c">
 			</File>
 			<File
-				RelativePath="general.c"
-				>
+				RelativePath="general.c">
 			</File>
 			<File
-				RelativePath="uctallocation.c"
-				>
+				RelativePath="uctallocation.c">
 			</File>
 			<File
-				RelativePath="uctendian.c"
-				>
+				RelativePath="uctendian.c">
 			</File>
 			<File
-				RelativePath="ucterror.c"
-				>
+				RelativePath="ucterror.c">
 			</File>
 			<File
-				RelativePath="uctfarapart.c"
-				>
+				RelativePath="uctfarapart.c">
 			</File>
 			<File
-				RelativePath="uctfiles.c"
-				>
+				RelativePath="uctfiles.c">
 			</File>
 			<File
-				RelativePath="uctgeneral.c"
-				>
+				RelativePath="uctgeneral.c">
 			</File>
 			<File
-				RelativePath="uctmedium.c"
-				>
+				RelativePath="uctmedium.c">
 			</File>
 			<File
-				RelativePath="uctnodes.c"
-				>
+				RelativePath="uctnodes.c">
 			</File>
 			<File
-				RelativePath="uctstatus.c"
-				>
+				RelativePath="uctstatus.c">
 			</File>
 			<File
-				RelativePath="ucttimestamp.c"
-				>
+				RelativePath="ucttimestamp.c">
 			</File>
 			<File
-				RelativePath="uctverify.c"
-				>
+				RelativePath="uctverify.c">
 			</File>
 			<File
-				RelativePath="unicode.c"
-				>
+				RelativePath="unicode.c">
 			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
-			Filter="h;hpp;hxx;hm;inl"
-			>
+			Filter="h;hpp;hxx;hm;inl">
 			<File
-				RelativePath="crc.h"
-				>
+				RelativePath="crc.h">
 			</File>
 			<File
-				RelativePath="device.h"
-				>
+				RelativePath="device.h">
 			</File>
 			<File
-				RelativePath="general.h"
-				>
+				RelativePath="general.h">
 			</File>
 			<File
-				RelativePath="mytypes.h"
-				>
+				RelativePath="mytypes.h">
 			</File>
 			<File
-				RelativePath="uct_core.h"
-				>
+				RelativePath="uct_core.h">
 			</File>
 			<File
-				RelativePath="uctallocation.h"
-				>
+				RelativePath="uctallocation.h">
 			</File>
 			<File
-				RelativePath="uctdata.h"
-				>
+				RelativePath="uctdata.h">
 			</File>
 			<File
-				RelativePath="uctendian.h"
-				>
+				RelativePath="uctendian.h">
 			</File>
 			<File
-				RelativePath="ucterror.h"
-				>
+				RelativePath="ucterror.h">
 			</File>
 			<File
-				RelativePath="uctfarapart.h"
-				>
+				RelativePath="uctfarapart.h">
 			</File>
 			<File
-				RelativePath="uctfiles.h"
-				>
+				RelativePath="uctfiles.h">
 			</File>
 			<File
-				RelativePath="uctgeneral.h"
-				>
+				RelativePath="uctgeneral.h">
 			</File>
 			<File
-				RelativePath="uctmedium.h"
-				>
+				RelativePath="uctmedium.h">
 			</File>
 			<File
-				RelativePath="uctnodes.h"
-				>
+				RelativePath="uctnodes.h">
 			</File>
 			<File
-				RelativePath="uctstatus.h"
-				>
+				RelativePath="uctstatus.h">
 			</File>
 			<File
-				RelativePath="ucttimestamp.h"
-				>
+				RelativePath="ucttimestamp.h">
 			</File>
 			<File
-				RelativePath="uctverify.h"
-				>
+				RelativePath="uctverify.h">
 			</File>
 			<File
-				RelativePath="uctversion.h"
-				>
+				RelativePath="uctversion.h">
 			</File>
 			<File
-				RelativePath="udfstruct.h"
-				>
+				RelativePath="udfstruct.h">
 			</File>
 			<File
-				RelativePath="unicode.h"
-				>
+				RelativePath="unicode.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Local Documentation"
+			Filter="txt">
+			<File
+				RelativePath="notes.txt">
 			</File>
 		</Filter>
 		<Filter
 			Name="Unix"
-			>
+			Filter="">
 			<File
-				RelativePath="Makefile"
-				>
+				RelativePath="Makefile">
 			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
 		</Filter>
 	</Files>
 	<Globals>

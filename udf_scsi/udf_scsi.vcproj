@@ -1,178 +1,124 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8.00"
+	Version="7.10"
 	Name="udf_scsi"
-	ProjectGUID="{F339CD64-5D2B-4697-9160-1D7726B9C26D}"
-	RootNamespace="udf_scsi"
-	>
+	SccProjectName="&quot;$/udfct/udf_scsi&quot;, KGAAAAAA"
+	SccLocalPath=".">
 	<Platforms>
 		<Platform
-			Name="Win32"
-		/>
+			Name="Win32"/>
 	</Platforms>
-	<ToolFiles>
-	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Release|Win32"
 			OutputDirectory=".\Release"
 			IntermediateDirectory=".\Release"
 			ConfigurationType="4"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
-			>
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
 			<Tool
-				Name="VCPreBuildEventTool"
-			/>
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="..\uct_core"
+				PreprocessorDefinitions="_USRDLL;UDF_SCSI_EXPORTS;WIN32;NDEBUG;_WINDOWS"
+				StringPooling="FALSE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="FALSE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderFile=".\Release/udf_scsi.pch"
+				AssemblerListingLocation=".\Release/"
+				ObjectFile=".\Release/"
+				ProgramDataBaseFileName=".\Release/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"/>
 			<Tool
-				Name="VCCustomBuildTool"
-			/>
+				Name="VCCustomBuildTool"/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
+				Name="VCLibrarianTool"/>
 			<Tool
 				Name="VCMIDLTool"
 				PreprocessorDefinitions="NDEBUG"
-				MkTypLibCompatible="true"
-				SuppressStartupBanner="true"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
 				TargetEnvironment="1"
-				TypeLibraryName="$(OutDir)\$(ProjectName).tlb"
-				HeaderFileName=""
-			/>
+				TypeLibraryName=".\Release/udf_scsi.tlb"
+				HeaderFileName=""/>
 			<Tool
-				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="0"
-				AdditionalIncludeDirectories="..\uct_core"
-				PreprocessorDefinitions="_USRDLL;WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE"
-				StringPooling="false"
-				BasicRuntimeChecks="0"
-				RuntimeLibrary="0"
-				EnableFunctionLevelLinking="false"
-				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile="$(OutDir)\$(ProjectName).pch"
-				AssemblerListingLocation="$(OutDir)\"
-				ObjectFile="$(OutDir)\"
-				ProgramDataBaseFileName="$(OutDir)\"
-				WarningLevel="4"
-				SuppressStartupBanner="true"
-				Detect64BitPortabilityProblems="true"
-			/>
+				Name="VCPostBuildEventTool"/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="NDEBUG"
-				Culture="1043"
-			/>
+				Culture="1043"/>
 			<Tool
-				Name="VCPreLinkEventTool"
-			/>
+				Name="VCWebServiceProxyGeneratorTool"/>
 			<Tool
-				Name="VCLibrarianTool"
-			/>
+				Name="VCXMLDataGeneratorTool"/>
 			<Tool
-				Name="VCALinkTool"
-			/>
+				Name="VCManagedWrapperGeneratorTool"/>
 			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-				OutputFile="$(OutDir)\$(ProjectName).bsc"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
-			/>
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
 		</Configuration>
 		<Configuration
 			Name="Debug|Win32"
 			OutputDirectory=".\Debug"
 			IntermediateDirectory=".\Debug"
 			ConfigurationType="4"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
-			>
-			<Tool
-				Name="VCPreBuildEventTool"
-			/>
-			<Tool
-				Name="VCCustomBuildTool"
-			/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
-			<Tool
-				Name="VCMIDLTool"
-				PreprocessorDefinitions="_DEBUG"
-				MkTypLibCompatible="true"
-				SuppressStartupBanner="true"
-				TargetEnvironment="1"
-				TypeLibraryName="$(OutDir)\$(ProjectName).tlb"
-				HeaderFileName=""
-			/>
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="..\uct_core"
-				PreprocessorDefinitions="_USRDLL;WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE"
+				PreprocessorDefinitions="_USRDLL;UDF_SCSI_EXPORTS;WIN32;_DEBUG"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
-				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile="$(OutDir)\$(ProjectName).pch"
-				AssemblerListingLocation="$(OutDir)\"
-				ObjectFile="$(OutDir)\"
-				ProgramDataBaseFileName="$(OutDir)\"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderFile=".\Debug\udf_scsi.pch"
+				AssemblerListingLocation=".\Debug\"
+				ObjectFile=".\Debug\"
+				ProgramDataBaseFileName=".\Debug\"
 				WarningLevel="4"
-				SuppressStartupBanner="true"
-				Detect64BitPortabilityProblems="true"
-				DebugInformationFormat="3"
-			/>
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="3"/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLibrarianTool"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\Debug/udf_scsi.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="_DEBUG"
-				Culture="1043"
-			/>
+				Culture="1043"/>
 			<Tool
-				Name="VCPreLinkEventTool"
-			/>
+				Name="VCWebServiceProxyGeneratorTool"/>
 			<Tool
-				Name="VCLibrarianTool"
-			/>
+				Name="VCXMLDataGeneratorTool"/>
 			<Tool
-				Name="VCALinkTool"
-			/>
+				Name="VCManagedWrapperGeneratorTool"/>
 			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-				OutputFile="$(OutDir)\$(ProjectName).bsc"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
-			/>
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
 		</Configuration>
 	</Configurations>
 	<References>
@@ -180,46 +126,54 @@
 	<Files>
 		<Filter
 			Name="Source Files"
-			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
-			>
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
 			<File
-				RelativePath="scsiapi.c"
-				>
+				RelativePath="scsiapi.c">
 			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
-			Filter="h;hpp;hxx;hm;inl"
-			>
+			Filter="h;hpp;hxx;hm;inl">
 			<File
-				RelativePath="scsiapi.h"
-				>
+				RelativePath="scsiapi.h">
 			</File>
 			<File
-				RelativePath="scsidefs.h"
-				>
+				RelativePath="scsidefs.h">
 			</File>
 			<File
-				RelativePath="wnaspi32.h"
-				>
+				RelativePath="wnaspi32.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Local Documentation"
+			Filter="txt">
+			<File
+				RelativePath="notes.txt">
 			</File>
 		</Filter>
 		<Filter
 			Name="Libs"
-			Filter="lib;dll;sys"
-			>
+			Filter="lib;dll;sys">
 			<File
-				RelativePath="wnaspi32.lib"
-				>
+				RelativePath="aspi32.sys">
+			</File>
+			<File
+				RelativePath="wnaspi32.dll">
+			</File>
+			<File
+				RelativePath="wnaspi32.lib">
 			</File>
 		</Filter>
 		<Filter
 			Name="Unix"
-			>
+			Filter="">
 			<File
-				RelativePath="Makefile"
-				>
+				RelativePath="Makefile">
 			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
 		</Filter>
 	</Files>
 	<Globals>
